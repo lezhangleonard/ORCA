@@ -157,21 +157,21 @@ endif
 
 # Add inputs and outputs from these tool invocations to the build variables 
 EXE_OUTPUTS += \
-LoRaClient5994.out 
+ORCA-MSP430.out 
 
 EXE_OUTPUTS__QUOTED += \
-"LoRaClient5994.out" 
+"ORCA-MSP430.out" 
 
 
 # All Target
 all: $(OBJS) $(CMD_SRCS) $(GEN_CMDS)
-	@$(MAKE) --no-print-directory -Onone "LoRaClient5994.out"
+	@$(MAKE) --no-print-directory -Onone "ORCA-MSP430.out"
 
 # Tool invocations
-LoRaClient5994.out: $(OBJS) $(CMD_SRCS) $(GEN_CMDS)
+ORCA-MSP430.out: $(OBJS) $(CMD_SRCS) $(GEN_CMDS)
 	@echo 'Building target: "$@"'
 	@echo 'Invoking: MSP430 Linker'
-	"/Applications/ti/ccs1270/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"LoRaClient5994.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"/Applications/ti/ccs1270/ccs/ccs_base/msp430/include" -i"/Applications/ti/ccs1270/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"/Applications/ti/ccs1270/ccs/ccs_base/msp430/lib/FR59xx" -i"/Applications/ti/ccs1270/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/lib" -i"/Applications/ti/ccs1270/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="LoRaClient5994_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "LoRaClient5994.out" $(ORDERED_OBJS)
+	"/Applications/ti/ccs1270/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"ORCA-MSP430.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"/Applications/ti/ccs1270/ccs/ccs_base/msp430/include" -i"/Applications/ti/ccs1270/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"/Applications/ti/ccs1270/ccs/ccs_base/msp430/lib/FR59xx" -i"/Applications/ti/ccs1270/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/lib" -i"/Applications/ti/ccs1270/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="ORCA-MSP430_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "ORCA-MSP430.out" $(ORDERED_OBJS)
 	@echo 'Finished building target: "$@"'
 	@echo ' '
 

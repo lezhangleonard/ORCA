@@ -17,8 +17,8 @@ main.obj: /Applications/ti/ccs1270/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/i
 main.obj: /Applications/ti/ccs1270/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/machine/_types.h
 main.obj: /Applications/ti/ccs1270/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/machine/_stdint.h
 main.obj: /Applications/ti/ccs1270/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/sys/_stdint.h
-main.obj: /Users/lezhang/Documents/workspace/LoRaClient5994/driverlib/MSP430FR5xx_6xx/gpio.h
-main.obj: /Users/lezhang/Documents/workspace/LoRaClient5994/driverlib/MSP430FR5xx_6xx/inc/hw_memmap.h
+main.obj: /Users/lezhang/Documents/ORCA/driverlib/MSP430FR5xx_6xx/gpio.h
+main.obj: /Users/lezhang/Documents/ORCA/driverlib/MSP430FR5xx_6xx/inc/hw_memmap.h
 main.obj: /Applications/ti/ccs1270/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/stdbool.h
 main.obj: /Applications/ti/ccs1270/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/math.h
 main.obj: /Applications/ti/ccs1270/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h
@@ -61,9 +61,9 @@ main.obj: ../fsk.h
 
 /Applications/ti/ccs1270/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/sys/_stdint.h:
 
-/Users/lezhang/Documents/workspace/LoRaClient5994/driverlib/MSP430FR5xx_6xx/gpio.h:
+/Users/lezhang/Documents/ORCA/driverlib/MSP430FR5xx_6xx/gpio.h:
 
-/Users/lezhang/Documents/workspace/LoRaClient5994/driverlib/MSP430FR5xx_6xx/inc/hw_memmap.h:
+/Users/lezhang/Documents/ORCA/driverlib/MSP430FR5xx_6xx/inc/hw_memmap.h:
 
 /Applications/ti/ccs1270/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/stdbool.h:
 
