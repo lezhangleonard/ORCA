@@ -39,5 +39,30 @@ MSP430FR5994 Launchpad, RFM95 (SX1276) LoRa breakout.
 
 ## Get Started
 
+### Intialize RFM95
 
+```
+rf_init_lora();
+```
+
+### Configure Tx and Rx
+
+```
+lora_set_txconfig();
+lora_set_rxconfig();
+```
+
+### Tx 
+
+```
+lora_send(SEND_BUFFER, SEND_SIZE);
+__bis_SR_register(LPM3_bits | GIE);       // Wait for TxDone interrupt
+```
+
+### Rx
+
+```
+lora_recv();                              // Set up Rx
+start_timer(RX_WINDOW_SIZE);              // Set up a timer for Rx window
+```
 
