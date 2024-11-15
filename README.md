@@ -17,7 +17,7 @@
 
 ## Prerequisites
 
-MSP430FR5994 Launchpad, RFM95 (SX1276) LoRa breakout.
+MSP430FR5994 Launchpad, RFM95 (SX1276) LoRa breakout, and wires
 
 ## Wiring
 
