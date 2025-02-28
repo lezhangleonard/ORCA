@@ -1,6 +1,6 @@
 # ORCA: Offload Rethinking by Cloud Assistance for Efficient Environmental Sound Recognition on LPWANs
 
-[Submission to SenSys'25] #508: Offload Rethinking by Cloud Assistance for Efficient Environmental Sound Recognition on LPWANs
+[SenSys'25] #508: Offload Rethinking by Cloud Assistance for Efficient Environmental Sound Recognition on LPWANs
 
 ## File Structure
 
