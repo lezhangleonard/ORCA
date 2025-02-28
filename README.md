@@ -75,7 +75,7 @@ This repo is developed and adapted from [MSP430_LoRaWAN](https://github.com/Ecco
 The machine learning library is referred to [Capuchin](https://github.com/lezhangleonard/Capuchin), a highly customizable ultra-low-power machine learning model generator for MSP430. 
 
 ## Cite me
-
+```
 @misc{zhang2025offloadrethinkingcloudassistance,
       title={Offload Rethinking by Cloud Assistance for Efficient Environmental Sound Recognition on LPWANs}, 
       author={Le Zhang and Quanling Zhao and Run Wang and Shirley Bian and Onat Gungor and Flavio Ponzina and Tajana Rosing},
@@ -85,4 +85,4 @@ The machine learning library is referred to [Capuchin](https://github.com/lezhan
       primaryClass={cs.SD},
       url={https://arxiv.org/abs/2502.15285}, 
 }
-
+```
