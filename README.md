@@ -1,6 +1,9 @@
 # ORCA: Offload Rethinking by Cloud Assistance for Efficient Environmental Sound Recognition on LPWANs
 
-[SenSys'25] #508: Offload Rethinking by Cloud Assistance for Efficient Environmental Sound Recognition on LPWANs
+A usable LoRa driver for intermittent communication on MSP430FR5994 for ultra-low-power edge-cloud collaborative learning. 
+
+This paper is accepted by [SenSys'25] [Offload Rethinking by Cloud Assistance for Efficient Environmental Sound Recognition on LPWANs](https://arxiv.org/abs/2502.15285)
+
 
 ## File Structure
 
@@ -17,7 +20,7 @@
 
 ## Prerequisites
 
-MSP430FR5994 Launchpad, RFM95 (SX1276) LoRa breakout, and wires
+MSP430FR5994 Launchpad, RFM95 (SX1276) LoRa breakout, and jumper wires
 
 ## Wiring
 
@@ -65,4 +68,21 @@ __bis_SR_register(LPM3_bits | GIE);       // Wait for TxDone interrupt
 lora_recv();                              // Set up Rx
 start_timer(RX_WINDOW_SIZE);              // Set up a timer for Rx window
 ```
+
+## Acknowledgements
+This repo is developed and adapted from [MSP430_LoRaWAN](https://github.com/EccoB/MSP430_LoRaWAN) and [RadioHead](https://www.airspayce.com/mikem/arduino/RadioHead/). 
+
+The machine learning library is referred to [Capuchin](https://github.com/lezhangleonard/Capuchin), a highly customizable ultra-low-power machine learning model generator for MSP430. 
+
+## Cite me
+
+@misc{zhang2025offloadrethinkingcloudassistance,
+      title={Offload Rethinking by Cloud Assistance for Efficient Environmental Sound Recognition on LPWANs}, 
+      author={Le Zhang and Quanling Zhao and Run Wang and Shirley Bian and Onat Gungor and Flavio Ponzina and Tajana Rosing},
+      year={2025},
+      eprint={2502.15285},
+      archivePrefix={arXiv},
+      primaryClass={cs.SD},
+      url={https://arxiv.org/abs/2502.15285}, 
+}
 
